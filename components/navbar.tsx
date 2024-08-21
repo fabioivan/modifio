@@ -30,7 +30,7 @@ export default function Navbar({ }): any {
             </div>
             <div className="items-center hidden gap-2 md:flex">
                 <ModeToggle />
-                <Link href="https://github.com/fabioivan/modifio.git">
+                <Link target="_blank" href="https://github.com/fabioivan/modifio.git">
                     <Button
                         variant="default"
                         className="items-center hidden gap-2 bg-orange-600 rounded-full w-fit md:flex"
